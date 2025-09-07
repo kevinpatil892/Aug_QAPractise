@@ -1,0 +1,31 @@
+package com.saucedemo.testclass;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+import com.saucedemo.pomclass.CartPage;
+import com.saucedemo.pomclass.HomePage;
+import com.saucedemo.utilitypackage.UtilityClass;
+
+import junit.framework.Assert;
+
+public class TC10_Checkoutbutton extends Base_testclass
+{
+	@Test
+	public void checkoutbuttonmethod() throws IOException
+	{
+		HomePage hp= new HomePage(driver);
+		hp.singleitemmethod();
+		hp.clickcartmethod();
+		
+		CartPage c= new CartPage(driver);
+			c.checkoutbuttonmethod();
+			String expurl="https://www.saucedemo.com/checkout-step-one.html";
+			String acturl=driver.getCurrentUrl();
+			Assert.assertEquals("failed", expurl, acturl);
+			UtilityClass.SS_method(driver);
+		
+	}
+
+}

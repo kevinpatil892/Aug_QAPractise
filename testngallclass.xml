@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HPSuite">
+  <test thread-count="5" parallel="classes" name="EndtoendTest">
+    <classes>
+      <class name="com.saucedemo.testclass.TC10_Checkoutbutton"/>
+      <class name="com.saucedemo.testclass.TC12_verifycheckoutpage"/>
+      <class name="com.saucedemo.testclass.TC05_Addmultiitem"/>
+      <class name="com.saucedemo.testclass.TC02_logoutfunctionality"/>
+      <class name="com.saucedemo.testclass.TC13_fillinfomethod"/>
+      <class name="com.saucedemo.testclass.TC14_checkoutcancelbutton"/>
+      <class name="com.saucedemo.testclass.TC08_Verifycartpage_testcase"/>
+      <class name="com.saucedemo.testclass.TC20_verifyfinaltext"/>
+      <class name="com.saucedemo.testclass.TC19_overviewfinishbutton"/>
+      <class name="com.saucedemo.testclass.TC03_aboutfunctionality"/>
+      <class name="com.saucedemo.testclass.TC01_loginfunctionality"/>
+      <class name="com.saucedemo.testclass.TC21_verifythankyoutext"/>
+      <class name="com.saucedemo.testclass.TC17_verifytotalamount"/>
+      <class name="com.saucedemo.testclass.TC16_verifyoverviewpage"/>
+      <class name="com.saucedemo.testclass.TC15_checkoutcontinuebutton"/>
+      <class name="com.saucedemo.testclass.TC18_overviewcancelbutton"/>
+      <class name="com.saucedemo.testclass.TC09_cartremovebutton"/>
+      <class name="com.saucedemo.testclass.TC06_filteritem"/>
+      <class name="com.saucedemo.testclass.TC22_ordercompletebackbutton"/>
+      <class name="com.saucedemo.testclass.TC07_clickcartbutton"/>
+      <class name="com.saucedemo.testclass.TC04_Singleitemadd"/>
+      <class name="com.saucedemo.testclass.TC11_continueshopbutton"/>
+    </classes>
+  </test> <!-- EndtoendTest -->
+</suite> <!-- HPSuite -->

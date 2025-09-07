@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HPSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="EndtoendTest(failed)">
+    <classes>
+      <class name="com.saucedemo.testclass.TC16_verifyoverviewpage">
+        <methods>
+          <include name="browserclose"/>
+          <include name="broswermethod"/>
+          <include name="setupmethod"/>
+          <include name="verifyoverviewpagetext"/>
+          <include name="teardownmethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.testclass.TC16_verifyoverviewpage -->
+      <class name="com.saucedemo.testclass.TC12_verifycheckoutpage">
+        <methods>
+          <include name="browserclose"/>
+          <include name="broswermethod"/>
+          <include name="verifycheckoutomethod"/>
+          <include name="setupmethod"/>
+          <include name="teardownmethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.testclass.TC12_verifycheckoutpage -->
+      <class name="com.saucedemo.testclass.TC03_aboutfunctionality">
+        <methods>
+          <include name="browserclose"/>
+          <include name="broswermethod"/>
+          <include name="setupmethod"/>
+          <include name="aboutmethod"/>
+          <include name="teardownmethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.testclass.TC03_aboutfunctionality -->
+      <class name="com.saucedemo.testclass.TC13_fillinfomethod">
+        <methods>
+          <include name="browserclose"/>
+          <include name="broswermethod"/>
+          <include name="setupmethod"/>
+          <include name="teardownmethod"/>
+          <include name="fillinfomethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.testclass.TC13_fillinfomethod -->
+      <class name="com.saucedemo.testclass.TC17_verifytotalamount">
+        <methods>
+          <include name="totalamountmethod"/>
+          <include name="browserclose"/>
+          <include name="broswermethod"/>
+          <include name="setupmethod"/>
+          <include name="teardownmethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.testclass.TC17_verifytotalamount -->
+      <class name="com.saucedemo.testclass.TC15_checkoutcontinuebutton">
+        <methods>
+          <include name="browserclose"/>
+          <include name="broswermethod"/>
+          <include name="setupmethod"/>
+          <include name="teardownmethod"/>
+          <include name="checkoutcontinuemethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.testclass.TC15_checkoutcontinuebutton -->
+      <class name="com.saucedemo.testclass.TC14_checkoutcancelbutton">
+        <methods>
+          <include name="checkoutcancelmethod"/>
+          <include name="browserclose"/>
+          <include name="broswermethod"/>
+          <include name="setupmethod"/>
+          <include name="teardownmethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.testclass.TC14_checkoutcancelbutton -->
+      <class name="com.saucedemo.testclass.TC07_clickcartbutton">
+        <methods>
+          <include name="browserclose"/>
+          <include name="broswermethod"/>
+          <include name="setupmethod"/>
+          <include name="cartmethod"/>
+          <include name="teardownmethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.testclass.TC07_clickcartbutton -->
+      <class name="com.saucedemo.testclass.TC19_overviewfinishbutton">
+        <methods>
+          <include name="browserclose"/>
+          <include name="broswermethod"/>
+          <include name="setupmethod"/>
+          <include name="teardownmethod"/>
+          <include name="overviewfinishmethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.testclass.TC19_overviewfinishbutton -->
+      <class name="com.saucedemo.testclass.TC22_ordercompletebackbutton">
+        <methods>
+          <include name="browserclose"/>
+          <include name="broswermethod"/>
+          <include name="setupmethod"/>
+          <include name="teardownmethod"/>
+          <include name="finalpagebackbuttonmethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.testclass.TC22_ordercompletebackbutton -->
+      <class name="com.saucedemo.testclass.TC18_overviewcancelbutton">
+        <methods>
+          <include name="overviewcancelmethod"/>
+          <include name="browserclose"/>
+          <include name="broswermethod"/>
+          <include name="setupmethod"/>
+          <include name="teardownmethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.testclass.TC18_overviewcancelbutton -->
+      <class name="com.saucedemo.testclass.TC10_Checkoutbutton">
+        <methods>
+          <include name="browserclose"/>
+          <include name="broswermethod"/>
+          <include name="setupmethod"/>
+          <include name="checkoutbuttonmethod"/>
+          <include name="teardownmethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.testclass.TC10_Checkoutbutton -->
+      <class name="com.saucedemo.testclass.TC21_verifythankyoutext">
+        <methods>
+          <include name="verifythankyoutextmethod"/>
+          <include name="browserclose"/>
+          <include name="broswermethod"/>
+          <include name="setupmethod"/>
+          <include name="teardownmethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.testclass.TC21_verifythankyoutext -->
+      <class name="com.saucedemo.testclass.TC20_verifyfinaltext">
+        <methods>
+          <include name="browserclose"/>
+          <include name="broswermethod"/>
+          <include name="setupmethod"/>
+          <include name="verifyfinalpagetextmethod"/>
+          <include name="teardownmethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.testclass.TC20_verifyfinaltext -->
+    </classes>
+  </test> <!-- EndtoendTest(failed) -->
+</suite> <!-- Failed suite [HPSuite] -->
