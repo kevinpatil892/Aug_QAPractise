@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-20T18:30:30 IST" name="Default suite" finished-at="2023-04-20T18:30:31 IST" duration-ms="158">
+    <groups>
+    </groups>
+    <test started-at="2023-04-20T18:30:30 IST" name="Default test" finished-at="2023-04-20T18:30:31 IST" duration-ms="158">
+      <class name="pack1.TestNG_Keywords">
+        <test-method signature="method3()[pri:-1, instance:pack1.TestNG_Keywords@4ef37659]" started-at="2023-04-20T18:30:31 IST" name="method3" finished-at="2023-04-20T18:30:31 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method signature="method1()[pri:0, instance:pack1.TestNG_Keywords@4ef37659]" started-at="2023-04-20T18:30:31 IST" name="method1" finished-at="2023-04-20T18:30:31 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method signature="method1()[pri:0, instance:pack1.TestNG_Keywords@4ef37659]" started-at="2023-04-20T18:30:31 IST" name="method1" finished-at="2023-04-20T18:30:31 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method signature="method5()[pri:0, instance:pack1.TestNG_Keywords@4ef37659]" started-at="2023-04-20T18:30:31 IST" name="method5" finished-at="2023-04-20T18:30:31 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method5 -->
+        <test-method signature="method2()[pri:1, instance:pack1.TestNG_Keywords@4ef37659]" started-at="2023-04-20T18:30:31 IST" name="method2" finished-at="2023-04-20T18:30:31 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method signature="method6()[pri:0, instance:pack1.TestNG_Keywords@4ef37659]" started-at="2023-04-20T18:30:31 IST" name="method6" finished-at="2023-04-20T18:30:31 IST" depends-on-methods="pack1.TestNG_Keywords.method2" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+      </class> <!-- pack1.TestNG_Keywords -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
